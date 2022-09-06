@@ -1,4 +1,15 @@
 body {
     margin:0;
     margin-top:center;
+    text-align: center;
+    background-color: #F36A1F;
+}
+
+p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+img {
+    border: 15px solid #F3861F;
 }
