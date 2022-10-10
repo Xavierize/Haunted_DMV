@@ -15,7 +15,7 @@ img {
 
 
 .halloween {
-    position: absolute; bottom: -2250px; right: 600px;
+    position: absolute; bottom: -2000px; right: 640px;
   }
   
   .halloween:before {
@@ -25,7 +25,7 @@ img {
     width:140px;
     height:20px;
     border-radius:500%;
-    top:250px;
+    top:260px;
   }
   
   .ghost {
@@ -44,7 +44,7 @@ img {
     height:70px;
     border-radius:105px;
     background-color: #f7ede2;
-    top:120px;
+    top:130px;
     left: 0.01px;
     box-shadow:20px 40px #F36A1F,40px 10px #f7ede2,60px 40px #F36A1F,80px -10px #f7ede2,100px 40px #F36A1F, 120px 0 #f7ede2;
   }
