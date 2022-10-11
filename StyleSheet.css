@@ -46,7 +46,8 @@ img {
     background-color: #f7ede2;
     top:130px;
     left: 0.01px;
-    box-shadow:20px 40px #F36A1F,40px 10px #f7ede2,60px 40px #F36A1F,80px -10px #f7ede2,100px 40px #F36A1F, 120px 0 #f7ede2;
+    box-shadow:20px 40px #F36A1F,40px 10px #f7ede2,60px 40px
+    #F36A1F,80px -10px #f7ede2,100px 40px #F36A1F, 120px 0 #f7ede2;
   }
   
   .ghost:after {
@@ -113,9 +114,13 @@ img {
   }
   
   .text {
-    position:relative;
+    position:absolute; left:150px; top:20px;
     top:-100px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
+    background:linear-gradient(#f7ede2, #100, #000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     left:-40px;
     color: #f7ede2;
     display: none;
